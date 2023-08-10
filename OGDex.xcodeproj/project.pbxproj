@@ -12,6 +12,7 @@
 		AD0FC9872A852F39005A3BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0FC9862A852F39005A3BFE /* Assets.xcassets */; };
 		AD0FC98A2A852F39005A3BFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0FC9892A852F39005A3BFE /* Preview Assets.xcassets */; };
 		AD0FC9922A853028005A3BFE /* pokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = AD0FC9912A853028005A3BFE /* pokemon.json */; };
+		AD0FC9952A85310A005A3BFE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0FC9942A85310A005A3BFE /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		AD0FC9862A852F39005A3BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0FC9892A852F39005A3BFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD0FC9912A853028005A3BFE /* pokemon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pokemon.json; sourceTree = "<group>"; };
+		AD0FC9942A85310A005A3BFE /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				AD0FC9822A852F38005A3BFE /* OGDexApp.swift */,
+				AD0FC9932A8530D9005A3BFE /* Helpers */,
 				AD0FC9842A852F38005A3BFE /* ContentView.swift */,
 				AD0FC9902A852FD8005A3BFE /* Data */,
 				AD0FC9862A852F39005A3BFE /* Assets.xcassets */,
@@ -76,6 +79,14 @@
 				AD0FC9912A853028005A3BFE /* pokemon.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		AD0FC9932A8530D9005A3BFE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD0FC9942A85310A005A3BFE /* Helpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD0FC9852A852F38005A3BFE /* ContentView.swift in Sources */,
+				AD0FC9952A85310A005A3BFE /* Helpers.swift in Sources */,
 				AD0FC9832A852F38005A3BFE /* OGDexApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
