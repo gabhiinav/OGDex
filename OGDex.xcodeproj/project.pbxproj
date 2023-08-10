@@ -63,7 +63,7 @@
 			children = (
 				AD0FC9822A852F38005A3BFE /* OGDexApp.swift */,
 				AD0FC9932A8530D9005A3BFE /* Helpers */,
-				AD0FC9842A852F38005A3BFE /* ContentView.swift */,
+				AD0FC9A32A85573A005A3BFE /* Views */,
 				AD0FC9962A853280005A3BFE /* Models */,
 				AD0FC9A02A8534CC005A3BFE /* ViewModels */,
 				AD0FC99C2A8533F2005A3BFE /* Managers */,
@@ -120,6 +120,14 @@
 				AD0FC9A12A8534DE005A3BFE /* ViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD0FC9A32A85573A005A3BFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD0FC9842A852F38005A3BFE /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
