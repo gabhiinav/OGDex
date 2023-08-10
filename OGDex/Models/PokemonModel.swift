@@ -7,14 +7,14 @@
 
 import Foundation
 
-struct PokemonPage {
+struct PokemonPage: Decodable {
     let count: Int
     let next: String
     let results: [Pokemon]
 }
 
 struct Pokemon: Codable, Identifiable, Equatable {
-    let id = UUID()
+    var id = UUID()
     let name: String
     let url: String
     
