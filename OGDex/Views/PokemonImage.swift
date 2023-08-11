@@ -1,10 +1,3 @@
-//
-//  PokemonImage.swift
-//  OGDex
-//
-//  Created by Abhinav Gupta on 11/08/23.
-//
-
 import SwiftUI
 
 struct PokemonImage: View {
@@ -20,12 +13,9 @@ struct PokemonImage: View {
                 if loadedData == nil {
                     getSprite(url: imageLink)
                     UserDefaults.standard.set(imageLink, forKey: imageLink)
-                    //print("New url!!! Caching...")
                 } else {
                     getSprite(url: loadedData!)
-                    //print("Using cached url...")
                 }
-                //print(pokemonSprite)
             }
             .clipShape(Circle())
             .foregroundColor(Color.gray.opacity(0.60))

@@ -1,10 +1,3 @@
-//
-//  ContextView.swift
-//  OGDex
-//
-//  Created by Abhinav Gupta on 11/08/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -21,7 +14,7 @@ struct ContentView: View {
                     
                     HStack {
                         PokemonImage(imageLink: "\(entry.url)")
-                            .padding(.trailing, 20)
+                            .padding(.trailing, 25)
                         
                         NavigationLink("\(entry.name)".capitalized ,destination: Text("Detail view for \(entry.name)"))
                     }
@@ -34,7 +27,7 @@ struct ContentView: View {
                 }
             }
             .searchable(text: $searchText)
-            .navigationTitle("PokedexUI")
+            .navigationTitle("Dex")
         }
     }
 }
