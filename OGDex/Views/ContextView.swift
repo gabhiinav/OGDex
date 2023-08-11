@@ -16,7 +16,7 @@ struct ContentView: View {
                         PokemonImage(imageLink: "\(entry.url)")
                             .padding(.trailing, 25)
                         
-                        NavigationLink("\(entry.name)".capitalized ,destination: Text("Detail view for \(entry.name)"))
+                        NavigationLink("\(entry.name)".capitalized, destination: Text("TeuxDeux"))
                     }
                 }
             }
@@ -27,7 +27,7 @@ struct ContentView: View {
                 }
             }
             .searchable(text: $searchText)
-            .navigationTitle("Dex")
+            .navigationTitle("dex")
         }
     }
 }
