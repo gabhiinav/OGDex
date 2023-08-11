@@ -27,7 +27,7 @@ struct ContentView: View {
                 }
             }
             .searchable(text: $searchText)
-            .navigationTitle("dex")
+            .navigationTitle("Dex")
         }
     }
 }
