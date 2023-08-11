@@ -12,6 +12,8 @@
 		AD0FC98A2A852F39005A3BFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0FC9892A852F39005A3BFE /* Preview Assets.xcassets */; };
 		ADE689A12A8673D3001ACA71 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE689A02A8673D3001ACA71 /* Pokemon.swift */; };
 		ADE689A32A8673F7001ACA71 /* PokemonSelecte.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE689A22A8673F7001ACA71 /* PokemonSelecte.swift */; };
+		ADE689A62A86746C001ACA71 /* ContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE689A52A86746C001ACA71 /* ContextView.swift */; };
+		ADE689A82A867492001ACA71 /* PokemonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE689A72A867491001ACA71 /* PokemonImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		AD0FC9892A852F39005A3BFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADE689A02A8673D3001ACA71 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		ADE689A22A8673F7001ACA71 /* PokemonSelecte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSelecte.swift; sourceTree = "<group>"; };
+		ADE689A52A86746C001ACA71 /* ContextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextView.swift; sourceTree = "<group>"; };
+		ADE689A72A867491001ACA71 /* PokemonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 				AD0FC9822A852F38005A3BFE /* OGDexApp.swift */,
 				ADD96F232A86702F00B82724 /* Data */,
 				AD0FC9862A852F39005A3BFE /* Assets.xcassets */,
+				ADE689A42A867459001ACA71 /* Views */,
 				AD0FC9882A852F39005A3BFE /* Preview Content */,
 			);
 			path = OGDex;
@@ -76,6 +81,15 @@
 				ADE689A22A8673F7001ACA71 /* PokemonSelecte.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		ADE689A42A867459001ACA71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ADE689A52A86746C001ACA71 /* ContextView.swift */,
+				ADE689A72A867491001ACA71 /* PokemonImage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE689A62A86746C001ACA71 /* ContextView.swift in Sources */,
+				ADE689A82A867492001ACA71 /* PokemonImage.swift in Sources */,
 				AD0FC9832A852F38005A3BFE /* OGDexApp.swift in Sources */,
 				ADE689A32A8673F7001ACA71 /* PokemonSelecte.swift in Sources */,
 				ADE689A12A8673D3001ACA71 /* Pokemon.swift in Sources */,
